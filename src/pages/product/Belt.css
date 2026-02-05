@@ -1,0 +1,87 @@
+.belts-container {
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.belts-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Grid */
+.belts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.belt-card {
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.belt-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: white;
+  padding: 10px;
+  transition: transform 0.4s ease;
+}
+
+.belt-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+
+.belt-card:hover img {
+  transform: scale(1.08);
+}
+
+/* Preview Popup */
+.preview-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease;
+}
+
+.preview-img {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: 12px;
+  background: white;
+  padding: 15px;
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .belts-title {
+    font-size: 2rem;
+  }
+
+  .belt-card img {
+    height: 160px;
+  }
+}

@@ -2,17 +2,23 @@ import { useState } from "react";
 import "./Jacket.css";
 
 const womenJackets = [
-  "https://images.unsplash.com/photo-1543076447-215ad9ba6923",
-  "https://images.unsplash.com/photo-1520975922323-38d9b1b2f3a7",
-  "https://images.unsplash.com/photo-1519415943484-9fa1873496d4",
-  "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543"
+  "/Ladies jacket/image1.png",
+  "/Ladies jacket/image2.png",
+  "/Ladies jacket/image3.png",
+  "/Ladies jacket/image5.png",
+  "/Ladies jacket/image6.png",
+  "/Ladies jacket/image7.png",
 ];
 
 const menJackets = [
-  "https://images.unsplash.com/photo-1520975698519-59a9b3b3b1c3",
-  "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c",
-  "https://images.unsplash.com/photo-1548883354-94bcfe321cbb",
-  "https://images.unsplash.com/photo-1516822003754-cca485356ecb"
+  "/Men jacket image/image1.png",
+  "/Men jacket image/image2.png",
+  "/Men jacket image/image3.png",
+  "/Men jacket image/image4.png",
+  "/Men jacket image/image5.png",
+  "/Men jacket image/image6.png",
+  "/Men jacket image/image7.png",
+
 ];
 
 export default function Jacket() {

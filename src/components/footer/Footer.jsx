@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+
 import { Link, Outlet } from "react-router-dom";
 
 export default function Footer() {
@@ -15,13 +16,13 @@ export default function Footer() {
             <strong>NANDINI EXPO HOUSE</strong> -Leather Manufacturing & Exporter.
           </p>
 
-          <div className="social-icons">
-            <FaFacebookF />
-            <FaInstagram />
-            <FaTwitter />
-            <FaLinkedinIn />
-          </div>
-        </div>
+        <div className="social-icons">
+ <a href="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+  <a href="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram /></a>
+  <a href="https://twitter.com" target="_blank" rel="noreferrer"><FaTwitter /></a>
+  <a href="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+</div>
+</div>
             
             
   <div className="footer-section">
@@ -34,9 +35,7 @@ export default function Footer() {
   </ul>
 </div>
 
-      
 
-        
         
         {/* Contact */}
         <div className="footer-contact">

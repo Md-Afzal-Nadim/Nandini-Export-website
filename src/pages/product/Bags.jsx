@@ -2,10 +2,10 @@ import { useState } from "react";
 import "./Bags.css";
 
 const bags = [
-  "https://images.unsplash.com/photo-1584917865442-de89df76afd3",
-  "https://images.unsplash.com/photo-1591561954557-26941169b49e",
-  "https://images.unsplash.com/photo-1608063615781-e2ef8c73d114",
-  "https://images.unsplash.com/photo-1593032465171-8f5b1b5f6c4a",
+  "/Women bags/image1.png",
+  "/Women bags/image2.png",
+  "/Women bags/image3.png",
+  "/Women bags/image4.png",
 ];
 
 export default function WomenBags() {

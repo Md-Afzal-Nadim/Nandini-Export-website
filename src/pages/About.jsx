@@ -1,80 +1,3 @@
-import { motion } from "framer-motion";
-/*import "./About.css";
-
-const data = [
-  {
-    title: "Collaborations",
-    desc: "I recently had the amazing opportunity to work with the world-renowned fashion brand Adike to promote its newest collections.",
-    img: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2"
-  },
-  {
-    title: "Fashion Campaign",
-    desc: "Worked with luxury designers to craft visually stunning campaigns that connect style with storytelling.",
-    img: "https://images.unsplash.com/photo-1495121605193-b116b5b09a11"
-  },
-  {
-    title: "Brand Promotion",
-    desc: "Collaborated with global brands to elevate their online presence through engaging visual content.",
-    img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
-  },
-  {
-    title: "Creative Direction",
-    desc: "Led creative direction for digital campaigns blending aesthetics with impactful brand messaging.",
-    img: "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
-  },
-  {
-    title: "Global Projects",
-    desc: "Partnered with international teams to deliver high-end visual experiences across digital platforms.",
-    img: "https://images.unsplash.com/photo-1520975922284-8b456906c813"
-  }
-];
-
-export default function Collaborations() {
-  return (
-    
-    <div>
-      {data.map((item, index) => (
-        <section className="collab-section" key={index}>
-          
-          {/* LEFT IMAGE */
-         /* <motion.div
-            className="collab-image"
-            initial={{ x: -120, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <img src={item.img} alt={item.title} />
-
-            <div className="play-button">
-              <div className="play-icon">▶</div>
-              <span>PLAY VIDEO</span>
-            </div>
-          </motion.div>
-
-          {/* RIGHT CONTENT */
-          /*<motion.div
-            className="collab-content"
-            initial={{ x: 120, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <h1>{item.title}</h1>
-            <p>{item.desc}</p>
-
-            <a href="#" className="explore-link">
-              EXPLORE <span>→</span>
-            </a>
-          </motion.div>
-
-        </section>
-      ))}
-    </div>
-  );
-}*/
-
-
 import { useEffect, useRef, useState } from "react";
 import "./About.css";
 
@@ -185,7 +108,7 @@ export default function About() {
             <div className={`vision-image-wrapper ${visionVisible ? 'animate' : ''}`}>
               <div className="vision-image">
                 <img
-                  src="new image.png"
+                  src="/Men jacket image/image2.png"
                   alt="Quality and Excellence Vision"
                   className="vision-main-img"
                 />

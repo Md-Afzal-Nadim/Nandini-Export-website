@@ -78,7 +78,7 @@
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .main-title {
     font-size: 2rem;
   }
@@ -88,6 +88,6 @@
   }
 
   .jacket-card img {
-    height: 200px;
+    height: 400px;
   }
 }

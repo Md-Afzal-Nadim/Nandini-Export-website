@@ -2,10 +2,11 @@ import { useState } from "react";
 import "./Skirts.css";
 
 const wallets = [
-  "https://images.unsplash.com/photo-1618354691438-25bc04584c23",
-  "https://images.unsplash.com/photo-1627123424574-724758594e93",
-  "https://images.unsplash.com/photo-1598032895397-b9472444bf93",
-  "https://images.unsplash.com/photo-1606503153255-59d8b8b5c1c0",
+  "/Wallet image/image1.png",
+  "/Wallet image/image2.png",
+  "/Wallet image/image3.png",
+  "/Wallet image/image4.png",
+  "/Wallet image/image5.png",
 ];
 
 export default function Skirts() {

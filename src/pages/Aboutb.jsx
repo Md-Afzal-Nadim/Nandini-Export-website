@@ -47,7 +47,7 @@ export default function Aboutb() {
           {/* Image caption badge */}
           <div className="image-badge">
             <div className="badge-content">
-              <span className="badge-number">15+</span>
+              <span className="badge-number">5+</span>
               <span className="badge-text">Years of Excellence</span>
             </div>
           </div>
@@ -102,11 +102,6 @@ export default function Aboutb() {
               <div className="feature-icon">✓</div>
               <div className="feature-text">Custom Solutions</div>
             </div>
-          </div>
-
-          <div className="action-buttons">
-            <button className="primary-btn">Explore Our Products</button>
-            <button className="secondary-btn">Contact Us</button>
           </div>
         </div>
       </div>

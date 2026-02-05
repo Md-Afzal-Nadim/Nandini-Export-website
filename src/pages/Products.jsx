@@ -1,8 +1,15 @@
 import { Link, Outlet } from "react-router-dom";
 import "./Products.css";
+import Jacket from "./product/Jacket";
+import Skirts from "./product/Skirts";
+import Bags from "./product/Bags";
+import Belt from "./product/Belt";
+
+
 
 function Products() {
   return (
+    <>
     <div className="products-container">
       <h1 className="products-title">Our Products</h1>
 
@@ -17,6 +24,11 @@ function Products() {
         <Outlet />
       </div>
     </div>
+    <Jacket />
+    <Skirts />
+    <Bags />
+    <Belt />
+    </>
   );
 }
 

@@ -8,8 +8,9 @@ const images = [
   "https://cdn.luxe.digital/media/20221013105613/best-leather-jackets-women-acne-studios-review-luxe-digital.jpg",
   "http://sc04.alicdn.com/kf/Uf990985c6f0c488ba2fb7e21d387e1afw.jpg",
   "https://5.imimg.com/data5/SELLER/Default/2023/3/MS/EK/LY/55911486/023a3470-500x500.jpg",
+  "https://pngimg.com/uploads/leather_jacket/leather_jacket_PNG18.png",
+  "https://www.shutterstock.com/shutterstock/photos/1248669322/display_1500/stock-photo-stylish-man-in-leather-jacket-and-sunglasses-holding-motorcycle-helmet-isolated-on-white-1248669322.jpg"
 ];
-
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
 
@@ -41,8 +42,8 @@ export default function HeroSlider() {
           {index === current && (
             <div className="content">
               <h1>NANDANI EXPO HOUSE</h1>
-              <p>I am item content. Click edit button to change this text.</p>
-              <button className="hero-btn">Explore More</button>
+              <p>-Leather Manufacturing & Exporter.</p>
+              
             </div>
           )}
         </div>
